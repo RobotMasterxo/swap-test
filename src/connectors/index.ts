@@ -40,18 +40,18 @@ export const walletconnect = new WalletConnectConnector({
 // mainnet only
 export const fortmatic = new FortmaticConnector({
   apiKey: FORMATIC_KEY ?? '',
-  chainId: 7668378
+  chainId: 1
 })
 
 // mainnet only
 export const portis = new PortisConnector({
   dAppId: PORTIS_ID ?? '',
-  networks: [7668378]
+  networks: [1]
 })
 
 // mainnet only
 export const walletlink = new WalletLinkConnector({
   url: NETWORK_URL,
-  appName: 'Crypto.com | DeFi Swap',
+  appName: ' | ',
   appLogoUrl: 'https://dnkplacumu1sr.cloudfront.net/crypto_com_logo.svg'
 })
