@@ -1,0 +1,36 @@
+{
+    "name": "Uniswap Default List",
+    "timestamp": "2020-08-25T15:41:29.665Z",
+    "version": {
+      "major": 1,
+      "minor": 3,
+      "patch": 1
+    },
+    "tags": {},
+    "logoURI": "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
+    "keywords": [
+      "uniswap",
+      "default"
+    ],
+    "tokens": [
+      {
+        "name": "QOM",
+        "address": "0xa188fda88fc313981DEd74C5292B0B59eB9055F8",
+        "symbol": "QOM",
+        "decimals": 18,
+        "chainId": 7668378,
+        "logoURI": ""
+      },
+      {
+        "name": "RTC",
+        "address": "0x1462A3C67dB4F92B38d7D61c30deF73a517a47AF",
+        "symbol": "RTC",
+        "decimals": 18,
+        "chainId": 7668378,
+        "logoURI": ""
+      }
+      
+    
+    ]
+  }
+  

@@ -5,7 +5,6 @@ import styled, { keyframes } from 'styled-components'
 import { darken } from 'polished'
 import { ArrowLeft, X } from 'react-feather'
 import Circle from '../assets/images/blue-loader.svg'
-import { Snowflake } from '../components/Snowflake'
 
 export const Button = styled.button.attrs<{ warning: boolean }, { backgroundColor: string }>(({ warning, theme }) => ({
   backgroundColor: warning ? theme.red1 : theme.primary1
@@ -170,21 +169,4 @@ export function BackArrow({ to }: { to: string }) {
       <ArrowLeft />
     </BackArrowLink>
   )
-}
-
-
-const SNOWFLAKE_COUNT = 50;
-
-export function SnowBackground() {
-  // Create the snowflakes
-  const snowflakes = [];
-  for (let i = 0; i < SNOWFLAKE_COUNT; i++) {
-    snowflakes.push(<Snowflake key={i} />);
-  }
-
-  return (
-    <div id="snow">
-      {snowflakes}
-    </div>
-  );
 }
