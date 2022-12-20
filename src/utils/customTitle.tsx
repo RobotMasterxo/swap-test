@@ -5,7 +5,7 @@ export const CustomTitle = ({ titleStr }: { titleStr: string }) => {
   return (
     <>
       <Helmet>
-        <title>{titleStr} | Crypto.com</title>
+        <title>{titleStr} | Testnet</title>
       </Helmet>
     </>
   )

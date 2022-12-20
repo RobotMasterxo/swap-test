@@ -20,6 +20,8 @@ import StakeTab from './Stake'
 import Yield from './Yield'
 import TermsAndConditionsModal from '../components/TermsAndConditionsModal'
 import TagManager from 'react-gtm-module'
+import Snowfall from 'react-snowfall'
+
 
 const tagManagerArgs = {
   js: new Date(),
@@ -63,14 +65,25 @@ const Marginer = styled.div`
   margin-top: 5rem;
 `
 
+
 export default function App() {
   return (
+    
     <Suspense fallback={null}>
       <TermsAndConditionsModal />
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Route component={GoogleAnalyticsReporter} />
         <Route component={DarkModeQueryParamReader} />
+        
         <AppWrapper>
+        <Snowfall
+              color= "white"
+              style={{
+                position: 'fixed',
+                width: '100vw',
+                height: '100vh',
+              }}
+            />
           <HeaderWrapper>
             <Header />
           </HeaderWrapper>

@@ -259,7 +259,7 @@ export default function Swap() {
 
   return (
     <>
-      <CustomTitle titleStr={'DeFi Swap | Best Token Swap DEX'}></CustomTitle>
+      <CustomTitle titleStr={'QOM Swap | Testnet'}></CustomTitle>
       <TokenWarningModal
         isOpen={urlLoadedTokens.length > 0 && !dismissTokenWarning}
         tokens={urlLoadedTokens}
