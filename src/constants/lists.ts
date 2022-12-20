@@ -1,4 +1,4 @@
-export const DEFAULT_TOKEN_LIST_URL = String(process.env.REACT_APP_CRYPTO_TOKEN_LIST_URL)
+export const DEFAULT_TOKEN_LIST_URL = String('https://raw.githubusercontent.com/RobotMasterxo/swap-test/testing/tokenlist.json')
 
 if (typeof DEFAULT_TOKEN_LIST_URL === 'undefined') {
   throw new Error(`REACT_APP_CRYPTO_TOKEN_LIST_URL is missing`)

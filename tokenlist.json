@@ -1,36 +1,49 @@
-{
-    "name": "Uniswap Default List",
-    "timestamp": "2020-08-25T15:41:29.665Z",
-    "version": {
-      "major": 1,
-      "minor": 3,
-      "patch": 1
-    },
-    "tags": {},
-    "logoURI": "",
+  {
+    "name": "My Token List",
+    "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
     "keywords": [
-      "uniswap",
-      "default"
+      "audited",
+      "verified",
+      "special tokens"
     ],
+    "tags": {
+      "stablecoin": {
+        "name": "Stablecoin",
+        "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
+      },
+      "compound": {
+        "name": "Compound Finance",
+        "description": "Tokens that earn interest on compound.finance"
+      }
+    },
+    "timestamp": "2020-06-12T00:00:00+00:00",
     "tokens": [
       {
-        "name": "QOM",
-        "address": "0xa188fda88fc313981DEd74C5292B0B59eB9055F8",
-        "symbol": "QOM",
-        "decimals": 18,
         "chainId": 7668378,
-        "logoURI": ""
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "symbol": "USDC",
+        "name": "USD Coin",
+        "decimals": 6,
+        "logoURI": "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM",
+        "tags": [
+          "stablecoin"
+        ]
       },
       {
-        "name": "RTC",
-        "address": "0x1462A3C67dB4F92B38d7D61c30deF73a517a47AF",
-        "symbol": "RTC",
-        "decimals": 18,
         "chainId": 7668378,
-        "logoURI": ""
+        "address": "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
+        "symbol": "cUSDC",
+        "name": "Compound USD Coin",
+        "decimals": 8,
+        "logoURI": "ipfs://QmUSNbwUxUYNMvMksKypkgWs8unSm8dX2GjCPBVGZ7GGMr",
+        "tags": [
+          "compound"
+        ]
       }
-      
-    
-    ]
+    ],
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "patch": 0
+    }
   }
-  
