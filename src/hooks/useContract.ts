@@ -64,7 +64,6 @@ export function useENSRegistrarContract(withSignerIfPossible?: boolean): Contrac
   let address: string | undefined
   if (chainId) {
     switch (chainId) {
-      case ChainId.MAINNET:
       case ChainId.GÖRLI:
       case ChainId.ROPSTEN:
       case ChainId.RINKEBY:
